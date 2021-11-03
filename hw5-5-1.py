@@ -1,4 +1,7 @@
 # auhtor: LM (AMDG) 11/2/21
-first = input("Enter a word. ")
-half = first(len)
-print(half)
+phrase = input("Enter your string: ")
+
+length = len(phrase)
+half = length // 2 
+print(phrase[:half])
+print(phrase[half:length])
